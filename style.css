@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  font-size: 18px;
+}
+.container {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  gap: 20px;
+}
+.panel {
+  background-color: rgba(231, 183, 93, 0.342);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 20px;
+  width: 200px;
+  min-height: 300px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-container {
+  width: 50vw;
+  padding: 20px;
+  background-color: rgba(177, 199, 208, 0.524);
+}
+.modal-container > form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px whitesmoke;
+  gap: 20px;
+}
+.modal-container > form > * {
+  padding: 10px;
+  border: none;
+  background-color: rgba(233, 230, 230, 0.539);
+}
+.task {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 2px 2px 4px #f4f5f7;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+}
